@@ -9,3 +9,8 @@
   --font-sans: var(--font-sans);
   --font-serif: var(--font-serif);
 }
+
+html, body {
+  min-height: 100%;
+  height: auto;
+}

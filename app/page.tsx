@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { ArrowRight, ChevronRight, Lock, Users, HeartCrack, FileText, History } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 import OnboardingStepper from '@/components/OnboardingStepper';
 import FaqAccordion from '@/components/FaqAccordion';
 import ScrollToTopLink from '@/components/ScrollToTopLink';
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen flex flex-col overflow-clip bg-[#fafafa] selection:bg-teal-52/20 font-sans select-none">
+    <main className="relative min-h-screen flex flex-col overflow-clip bg-[#fafafa] selection:bg-teal-52/20 font-sans">
       <SmoothScroll />
       {/* Visual Background Accents */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-teal-5 opacity-40 lg:opacity-20 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2 pointer-events-none" />
@@ -50,9 +51,9 @@ export default function Home() {
           </div>
 
           <div className="flex items-center z-10">
-            <button aria-label="Rejoindre UMi" className="px-5 sm:px-6 py-2 sm:py-2.5 rounded-xl bg-teal-52 text-white font-sans font-bold hover:bg-teal-82 transition-all hover:opacity-90 shadow-md shadow-teal-52/20 text-[14px]">
+            <Link href="/contact" className="px-5 sm:px-6 py-2 sm:py-2.5 rounded-xl bg-teal-52 text-white font-sans font-bold hover:bg-teal-82 transition-all hover:opacity-90 shadow-md shadow-teal-52/20 text-[14px]">
               Rejoindre UMi
-            </button>
+            </Link>
           </div>
         </div>
       </nav>
@@ -84,9 +85,9 @@ export default function Home() {
           <div className="flex flex-col space-y-4 w-full">
             {/* Buttons Row */}
             <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0">
-              <button className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl bg-teal-52 text-white font-bold transition-all hover:bg-teal-82 hover:opacity-90 shadow-lg shadow-teal-52/30">
+              <Link href="/contact" className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl bg-teal-52 text-white font-bold transition-all hover:opacity-90 shadow-lg shadow-teal-52/30">
                 Aider à co-créer UMi <ArrowRight className="w-5 h-5 opacity-90" />
-              </button>
+              </Link>
               <button className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl border border-transparent text-teal-52 font-bold transition-all hover:bg-teal-5">
                 Découvrir l&apos;application <ChevronRight className="w-5 h-5 opacity-90" />
               </button>

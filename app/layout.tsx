@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
+import { Suspense } from 'react';
 import { Source_Sans_3, Source_Serif_4 } from 'next/font/google';
+import PageViewTracker from './components/PageViewTracker';
 import './globals.css'; // Global styles
 
 const sourceSans = Source_Sans_3({
@@ -43,6 +45,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TD92R8S2" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
           }}
         />
+        <Suspense fallback={null}>
+          <PageViewTracker />
+        </Suspense>
         {children}
       </body>
     </html>

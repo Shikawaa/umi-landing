@@ -4,8 +4,11 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, CheckCircle2 } from 'lucide-react';
 import { submitToHubspot } from '@/app/actions/hubspot';
+import { useSignupFormTracker } from '@/app/hooks/useSignupFormTracker';
 
 export default function ContactPage() {
+  // GTM : pousse l'événement signup_opened au montage de la page
+  useSignupFormTracker('contact');
   // États pour les champs du formulaire
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');

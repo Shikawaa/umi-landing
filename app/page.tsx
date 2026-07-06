@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { ArrowRight, ChevronRight, Lock, Users, HeartCrack, FileText, History } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
+import CtaLink from '@/app/components/CtaLink';
 import OnboardingStepper from '@/components/OnboardingStepper';
 import FaqAccordion from '@/components/FaqAccordion';
 import ScrollToTopLink from '@/components/ScrollToTopLink';
@@ -51,9 +52,9 @@ export default function Home() {
           </div>
 
           <div className="flex items-center z-10">
-            <Link href="/contact" className="px-5 sm:px-6 py-2 sm:py-2.5 rounded-xl bg-teal-52 text-white font-sans font-bold hover:bg-teal-82 transition-all hover:opacity-90 shadow-md shadow-teal-52/20 text-[14px]">
+            <CtaLink href="/contact" ctaLabel="Rejoindre UMi" eventPosition="navbar" className="px-5 sm:px-6 py-2 sm:py-2.5 rounded-xl bg-teal-52 text-white font-sans font-bold hover:bg-teal-82 transition-all hover:opacity-90 shadow-md shadow-teal-52/20 text-[14px]">
               Rejoindre UMi
-            </Link>
+            </CtaLink>
           </div>
         </div>
       </nav>
@@ -85,9 +86,9 @@ export default function Home() {
           <div className="flex flex-col space-y-4 w-full">
             {/* Buttons Row */}
             <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0">
-              <Link href="/contact" className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl bg-teal-52 text-white font-bold transition-all hover:opacity-90 shadow-lg shadow-teal-52/30">
+              <CtaLink href="/contact" ctaLabel="Aider à co-créer UMi" eventPosition="hero" className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl bg-teal-52 text-white font-bold transition-all hover:opacity-90 shadow-lg shadow-teal-52/30">
                 Aider à co-créer UMi <ArrowRight className="w-5 h-5 opacity-90" />
-              </Link>
+              </CtaLink>
               <button className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl border border-transparent text-teal-52 font-bold transition-all hover:bg-teal-5">
                 Découvrir l&apos;application <ChevronRight className="w-5 h-5 opacity-90" />
               </button>

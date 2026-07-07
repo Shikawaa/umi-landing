@@ -3,6 +3,7 @@ import { ArrowRight, ChevronRight, Lock, Users, HeartCrack, FileText, History } 
 import Image from 'next/image';
 import Link from 'next/link';
 import CtaLink from '@/app/components/CtaLink';
+import ScrollDepthTracker from '@/app/components/ScrollDepthTracker';
 import OnboardingStepper from '@/components/OnboardingStepper';
 import FaqAccordion from '@/components/FaqAccordion';
 import ScrollToTopLink from '@/components/ScrollToTopLink';
@@ -24,6 +25,7 @@ export default function Home() {
   return (
     <main className="relative min-h-screen flex flex-col overflow-clip bg-[#fafafa] selection:bg-teal-52/20 font-sans">
       <SmoothScroll />
+      <ScrollDepthTracker />
       {/* Visual Background Accents */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-teal-5 opacity-40 lg:opacity-20 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2 pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-teal-52 opacity-10 lg:opacity-5 rounded-full blur-[100px] translate-y-1/2 -translate-x-1/2 pointer-events-none" />

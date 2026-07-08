@@ -33,6 +33,13 @@ export default function ContactPage() {
 
       if (result.success) {
         setIsSuccess(true);
+
+        // GTM : événement de conversion après confirmation serveur
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: 'signup_completed',
+          form_name: 'contact',
+        });
       } else {
         alert(`Erreur HubSpot: ${result.message}`);
       }

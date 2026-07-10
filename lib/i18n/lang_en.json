@@ -1,0 +1,196 @@
+{
+  "nav": {
+    "constat": "The problem",
+    "fonctionnement": "How it works",
+    "mise_en_place": "Getting started",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "cta": "Join UMi"
+  },
+  "hero": {
+    "badge": "✨ Help us co-create the future of mental health",
+    "title": "Strengthen your patients' therapeutic adherence between sessions",
+    "subtitle": "UMi extends your clinical work through a mobile app of AI-contextualized CBT exercises, prescribed to your patients and hosted on HDS-certified infrastructure.",
+    "cta_primary": "Help co-create UMi",
+    "cta_secondary": "Discover the app",
+    "social_proof": "🤝 Free access during the testing phase"
+  },
+  "constat": {
+    "label": "THE PROBLEM",
+    "title": "What CBT therapists face every day",
+    "card1": {
+      "title": "The adherence challenge",
+      "text": "Between appointments, patient motivation can decline. Without structured support, nearly 25% of follow-ups are interrupted prematurely, limiting the impact of your clinical work."
+    },
+    "card2": {
+      "title": "The lack of dedicated tools",
+      "text": "Without professional tools, follow-up often relies on scattered materials (PDFs, paper). It's difficult to individualize exercises without significantly increasing your daily workload."
+    },
+    "card3": {
+      "title": "Lost clinical time",
+      "text": "Reconstructing the context of the past week consumes precious minutes at the start of each session. This missing visibility hinders the fluidity of therapeutic work."
+    }
+  },
+  "fonctionnement": {
+    "label": "UMI",
+    "title": "A dual interface designed for the therapeutic alliance.",
+    "subtitle": "UMi connects your patients' between-session work to your clinical practice, without ever adding to your workload.",
+    "patient": {
+      "title": "A secure extension of your practice.",
+      "text": "Your patients benefit from a supportive space to stay on track between appointments. Guided by our AI, they structure their thoughts and put your recommendations into practice.",
+      "features": [
+        "Mood tracking and regular emotional check-ins.",
+        "AI-enhanced journaling hosted on HDS-certified servers.",
+        "Targeted CBT exercises, contextualized to the patient's state."
+      ]
+    },
+    "therapist": {
+      "title": "Stay in the loop, save clinical time.",
+      "text": "The therapist interface is deliberately minimal. It integrates into your daily routine to give you the right information at the right time, without drowning you in data.",
+      "features": [
+        "Simple patient management via invitation codes.",
+        "Track status and exercises completed between sessions.",
+        "Immediate alerts when critical signals are detected."
+      ]
+    },
+    "dashboard_badge": "Up to date"
+  },
+  "mise_en_place": {
+    "label": "SIMPLE SETUP",
+    "title": "Integrate UMi into your practice in 3 steps.",
+    "floating": {
+      "title": "Practitioner Access",
+      "subtitle": "Secure space"
+    }
+  },
+  "onboarding": {
+    "steps": [
+      {
+        "title": "Registration",
+        "content": "Create your practitioner account in minutes. No technical installation required — everything is done from your browser."
+      },
+      {
+        "title": "Patient invitation",
+        "content": "Invite your first patient so they can start working. They receive access to the mobile app instantly."
+      },
+      {
+        "title": "Follow-up customization",
+        "content": "Configure the CBT exercises you want to assign to your patient based on your clinical approach. The tool adapts to your method."
+      }
+    ]
+  },
+  "blog": {
+    "label": "BLOG",
+    "title": "Designed by and for mental health professionals.",
+    "card1": {
+      "tag": "Clinical Practice",
+      "title": "Reducing dropout: bridging the between-session gap",
+      "text": "25% of patients abandon their follow-up. Strengthen adherence between sessions without increasing your workload.",
+      "link": "Read the article"
+    },
+    "card2": {
+      "tag": "Digital Tools",
+      "title": "CBT: Why switch from PDF to interactive tools?",
+      "text": "Static worksheets hinder patient engagement. See how AI adapts your exercises to your patients' real-life experiences, in real time.",
+      "link": "Read the article"
+    },
+    "card3": {
+      "tag": "Ethics",
+      "title": "AI and ethics: an extension, not a substitute",
+      "text": "HDS data security is non-negotiable. Discover an ethical framework where AI assists your practice without ever replacing your expertise.",
+      "link": "Read the article"
+    },
+    "see_all": "View all articles"
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Everything you need to know before getting started.",
+    "items": [
+      {
+        "question": "Does UMi replace the psychologist?",
+        "answer": "UMi is an extension of your practice, never a substitute. The app is designed to be useful only within a follow-up with a practitioner. It does not diagnose, it does not make decisions for the patient. This limit is a founding commitment, not a communication precaution."
+      },
+      {
+        "question": "Is the data truly secure?",
+        "answer": "The infrastructure relies on HDS-certified hosting in France. Health data is encrypted at rest and in transit. The patient controls what they share with you: you never see raw clinical content without their explicit consent."
+      },
+      {
+        "question": "Will it increase my workload?",
+        "answer": "That's precisely the constraint we set for ourselves. You configure the tool once, and the AI handles patient contextualization. You check a dashboard before each session — thirty seconds. No additional input is required."
+      },
+      {
+        "question": "Is UMi only for CBT practitioners?",
+        "answer": "The MVP exercise library is rooted in cognitive-behavioral approaches. If you work with other approaches, UMi remains usable but the proposed exercises won't all be relevant. We will progressively open the platform to other modalities."
+      },
+      {
+        "question": "What exactly do I see of what my patient does?",
+        "answer": "At MVP stage, you see engagement metadata: completed exercises, frequency, date of last use. Not the content of responses. This separation is a conscious choice: it protects the therapeutic alliance and avoids out-of-session judgment biases."
+      },
+      {
+        "question": "When will the MVP be available?",
+        "answer": "A closed beta is opening in the coming months with about twenty pilot CBT practitioners. By joining the early-bird list, you get priority access and benefit from the preferential rate."
+      }
+    ]
+  },
+  "footer": {
+    "description": "The app that extends the impact of your CBT consultations. Hosted on HDS-certified servers.",
+    "product": {
+      "title": "Product",
+      "constat": "The problem",
+      "fonctionnement": "How it works",
+      "mise_en_place": "Getting started",
+      "faq": "FAQ"
+    },
+    "resources": {
+      "title": "Resources",
+      "blog": "Blog",
+      "practitioner": "Practitioner Access",
+      "waitlist": "Waitlist (Early-bird)"
+    },
+    "legal": {
+      "title": "Legal",
+      "mentions": "Legal notice",
+      "privacy": "Privacy policy",
+      "cgu": "Terms of use"
+    },
+    "copyright": "© 2026 UMi. All rights reserved."
+  },
+  "contact": {
+    "back": "Back to home",
+    "success": {
+      "title": "Registration confirmed!",
+      "text": "Thank you for joining the UMi adventure. The team will get back to you very soon with your access."
+    },
+    "title": "Join the waitlist",
+    "subtitle": "Leave us your details to get early access and participate in the testing phase.",
+    "form": {
+      "firstName": {
+        "label": "First name",
+        "placeholder": "Your first name"
+      },
+      "lastName": {
+        "label": "Last name",
+        "placeholder": "Your last name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "your@email.com"
+      },
+      "pratique": {
+        "label": "Your practice (optional)",
+        "placeholder": "Tell us briefly about your therapeutic approach or current needs."
+      },
+      "submit": "Confirm my registration",
+      "submitting": "Sending...",
+      "disclaimer": "By confirming your registration, you agree that the UMi team may store your data to contact you. Your information remains strictly confidential."
+    },
+    "error": {
+      "hubspot": "HubSpot error:",
+      "network": "Connection error. Please check your network."
+    }
+  },
+  "language": {
+    "fr": "Français",
+    "en": "English"
+  }
+}

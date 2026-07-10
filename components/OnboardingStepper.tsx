@@ -2,37 +2,31 @@
 
 import { useState } from 'react';
 import { CheckCircle, UserPlus, ClipboardEdit, LucideIcon } from 'lucide-react';
+import { useLanguage } from '@/lib/i18n/LanguageContext';
 
-interface Step {
-  id: number;
+interface TranslatedStep {
   title: string;
   content: string;
+}
+
+interface Step extends TranslatedStep {
+  id: number;
   icon: LucideIcon;
 }
 
+const stepIcons: LucideIcon[] = [CheckCircle, UserPlus, ClipboardEdit];
+
 export default function OnboardingStepper() {
   const [activeStep, setActiveStep] = useState(1);
+  const { ta } = useLanguage();
 
-  const steps: Step[] = [
-    {
-      id: 1,
-      title: "Inscription",
-      content: "Créez votre compte praticien en quelques minutes. Aucune installation technique requise, tout se fait depuis votre navigateur.",
-      icon: CheckCircle
-    },
-    {
-      id: 2,
-      title: "Invitation du patient",
-      content: "Invitez votre premier patient afin qu'il commence à travailler. Il reçoit l'accès à l'application mobile instantanément.",
-      icon: UserPlus
-    },
-    {
-      id: 3,
-      title: "Personnalisation du suivi",
-      content: "Paramétrez les exercices TCC que vous souhaitez donner à votre patient selon votre approche clinique. L'outil s'adapte à votre méthode.",
-      icon: ClipboardEdit
-    }
-  ];
+  const translatedSteps = ta<TranslatedStep[]>('onboarding.steps');
+
+  const steps: Step[] = translatedSteps.map((step, index) => ({
+    ...step,
+    id: index + 1,
+    icon: stepIcons[index],
+  }));
 
   return (
     <div className="w-full flex flex-col relative gap-1">

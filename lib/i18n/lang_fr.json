@@ -1,0 +1,196 @@
+{
+  "nav": {
+    "constat": "Le constat",
+    "fonctionnement": "Fonctionnement",
+    "mise_en_place": "Mise en place",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "cta": "Rejoindre UMi"
+  },
+  "hero": {
+    "badge": "✨ Aidez-nous à co-créer le futur de la santé",
+    "title": "Renforcez l'adhésion thérapeutique de vos patients entre les séances",
+    "subtitle": "UMi prolonge votre travail clinique grâce à une application mobile d'exercices TCC contextualisés par IA, prescrite à vos patients et hébergée sur infrastructure certifiée HDS.",
+    "cta_primary": "Aider à co-créer UMi",
+    "cta_secondary": "Découvrir l'application",
+    "social_proof": "🤝 Accès gratuit pendant la phase de test"
+  },
+  "constat": {
+    "label": "LE CONSTAT",
+    "title": "Ce que les psys TCC vivent au quotidien",
+    "card1": {
+      "title": "Le défi de l'observance",
+      "text": "Entre deux rendez-vous, la motivation du patient peut diminuer. Sans soutien structuré, près de 25 % des suivis s'interrompent prématurément, limitant l'impact de votre travail clinique."
+    },
+    "card2": {
+      "title": "Le manque de supports dédiés",
+      "text": "Faute d'outils professionnels, le suivi repose souvent sur des supports dispersés (PDF, papier). Il est difficile d'individualiser ces exercices sans alourdir considérablement votre gestion quotidienne."
+    },
+    "card3": {
+      "title": "La perte de temps clinique",
+      "text": "Reconstituer le contexte de la semaine écoulée consomme de précieuses minutes à chaque début de séance. Cette visibilité manquante freine la fluidité du travail thérapeutique."
+    }
+  },
+  "fonctionnement": {
+    "label": "UMI",
+    "title": "Une double interface conçue pour l'alliance thérapeutique.",
+    "subtitle": "UMi connecte le travail inter-séances de vos patients à votre pratique clinique, sans jamais l'alourdir.",
+    "patient": {
+      "title": "Un prolongement sécurisé de votre cabinet.",
+      "text": "Vos patients bénéficient d'un espace bienveillant pour maintenir le cap entre deux rendez-vous. Guidés par notre IA, ils structurent leurs pensées et mettent en pratique vos recommandations.",
+      "features": [
+        "Mood-tracking et Check-in émotionnel régulier.",
+        "Journaling augmenté par une IA hébergée sur serveurs HDS.",
+        "Exercices TCC ciblés, contextualisés selon l'état du patient."
+      ]
+    },
+    "therapist": {
+      "title": "Gardez le fil, gagnez du temps clinique.",
+      "text": "L'interface psy est volontairement minimale. Elle s'intègre à votre quotidien pour vous donner la bonne information au bon moment, sans vous noyer sous les données.",
+      "features": [
+        "Gestion simple de la patientèle par code d'invitation.",
+        "Suivi du statut et des exercices réalisés entre les séances.",
+        "Alertes immédiates en cas de signaux critiques détectés."
+      ]
+    },
+    "dashboard_badge": "À jour"
+  },
+  "mise_en_place": {
+    "label": "MISE EN PLACE SIMPLE",
+    "title": "Intégrez UMi à votre pratique en 3 étapes.",
+    "floating": {
+      "title": "Accès Praticien",
+      "subtitle": "Espace sécurisé"
+    }
+  },
+  "onboarding": {
+    "steps": [
+      {
+        "title": "Inscription",
+        "content": "Créez votre compte praticien en quelques minutes. Aucune installation technique requise, tout se fait depuis votre navigateur."
+      },
+      {
+        "title": "Invitation du patient",
+        "content": "Invitez votre premier patient afin qu'il commence à travailler. Il reçoit l'accès à l'application mobile instantanément."
+      },
+      {
+        "title": "Personnalisation du suivi",
+        "content": "Paramétrez les exercices TCC que vous souhaitez donner à votre patient selon votre approche clinique. L'outil s'adapte à votre méthode."
+      }
+    ]
+  },
+  "blog": {
+    "label": "BLOG",
+    "title": "Pensé par et pour les professionnels de la santé mentale.",
+    "card1": {
+      "tag": "Pratique Clinique",
+      "title": "Réduire l'abandon : combler le vide inter-séance",
+      "text": "25 % des patients abandonnent leur suivi. Renforcez l'adhésion entre les séances sans alourdir votre charge de travail.",
+      "link": "Lire l'article"
+    },
+    "card2": {
+      "tag": "Outils Digitaux",
+      "title": "TCC : Pourquoi passer du PDF à l'outil interactif ?",
+      "text": "Les fiches statiques freinent l'engagement du patient. Voyez comment l'IA adapte vos exercices au vécu réel de vos patients, en temps réel.",
+      "link": "Lire l'article"
+    },
+    "card3": {
+      "tag": "Déontologie",
+      "title": "IA et éthique : un prolongement, pas un substitut",
+      "text": "La sécurité des données HDS est non négociable. Découvrez un cadre éthique où l'IA assiste votre pratique sans jamais remplacer votre expertise.",
+      "link": "Lire l'article"
+    },
+    "see_all": "Voir tous les articles"
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Tout ce que vous devez savoir avant de commencer.",
+    "items": [
+      {
+        "question": "UMi remplace-t-il le psychologue ?",
+        "answer": "UMi est un prolongement de votre pratique, jamais un substitut. L'app n'est conçue pour être utile qu'au sein d'un suivi avec un praticien. Elle ne diagnostique pas, elle ne décide rien pour le patient. Cette limite est un engagement fondateur, pas une précaution de communication."
+      },
+      {
+        "question": "Les données sont-elles vraiment sécurisées ?",
+        "answer": "L'infrastructure repose sur un hébergement HDS certifié en France. Les données de santé sont chiffrées au repos et en transit. Le patient contrôle ce qu'il partage avec vous : vous ne voyez jamais le contenu clinique brut sans son accord explicite."
+      },
+      {
+        "question": "Est-ce que ça va m'alourdir la charge de travail ?",
+        "answer": "C'est précisément la contrainte que nous nous sommes imposée. Vous configurez l'outil une fois, l'IA s'occupe de la contextualisation patient. Vous consultez un tableau de bord avant chaque séance, trente secondes. Aucune saisie supplémentaire n'est requise."
+      },
+      {
+        "question": "UMi est-il réservé aux praticiens TCC ?",
+        "answer": "La bibliothèque d'exercices du MVP est ancrée dans les approches cognitivo-comportementales. Si vous travaillez avec d'autres approches, UMi reste utilisable mais les exercices proposés ne seront pas tous pertinents. Nous ouvrirons progressivement la plateforme à d'autres modalités."
+      },
+      {
+        "question": "Qu'est-ce que je vois exactement de ce que fait mon patient ?",
+        "answer": "Au MVP, vous voyez les métadonnées d'engagement : exercices réalisés, fréquence, date du dernier usage. Pas le contenu des réponses. Cette séparation est un choix conscient : elle protège l'alliance thérapeutique et évite les biais de jugement hors séance."
+      },
+      {
+        "question": "Quand est-ce que le MVP sera disponible ?",
+        "answer": "Une bêta fermée ouvre dans les prochains mois avec une vingtaine de praticiens TCC pilotes. En rejoignant la liste early-bird, vous êtes prioritaire sur cet accès et vous bénéficiez du tarif préférentiel."
+      }
+    ]
+  },
+  "footer": {
+    "description": "L'application qui prolonge l'impact de vos consultations TCC. Hébergée sur serveurs certifiés HDS.",
+    "product": {
+      "title": "Produit",
+      "constat": "Le constat",
+      "fonctionnement": "Fonctionnement",
+      "mise_en_place": "Mise en place",
+      "faq": "FAQ"
+    },
+    "resources": {
+      "title": "Ressources",
+      "blog": "Blog",
+      "practitioner": "Accès Praticien",
+      "waitlist": "Liste d'attente (Early-bird)"
+    },
+    "legal": {
+      "title": "Légal",
+      "mentions": "Mentions légales",
+      "privacy": "Politique de confidentialité",
+      "cgu": "CGU"
+    },
+    "copyright": "© 2026 UMi. Tous droits réservés."
+  },
+  "contact": {
+    "back": "Retour à l'accueil",
+    "success": {
+      "title": "Inscription validée !",
+      "text": "Merci de rejoindre l'aventure UMi. L'équipe revient vers vous très prochainement pour votre accès."
+    },
+    "title": "Rejoignez la liste d'attente",
+    "subtitle": "Laissez-nous vos coordonnées pour bénéficier d'un accès anticipé et participer à la phase de test.",
+    "form": {
+      "firstName": {
+        "label": "Prénom",
+        "placeholder": "Votre prénom"
+      },
+      "lastName": {
+        "label": "Nom",
+        "placeholder": "Votre nom"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "votre@email.com"
+      },
+      "pratique": {
+        "label": "Votre pratique (optionnel)",
+        "placeholder": "Parlez-nous brièvement de votre approche thérapeutique ou de vos besoins actuels."
+      },
+      "submit": "Valider mon inscription",
+      "submitting": "Envoi en cours...",
+      "disclaimer": "En validant votre inscription, vous acceptez que l'équipe UMi conserve vos données pour vous recontacter. Vos informations restent strictement confidentielles."
+    },
+    "error": {
+      "hubspot": "Erreur HubSpot:",
+      "network": "Erreur de connexion. Vérifiez votre réseau."
+    }
+  },
+  "language": {
+    "fr": "Français",
+    "en": "English"
+  }
+}

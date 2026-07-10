@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Suspense } from 'react';
 import { Source_Sans_3, Source_Serif_4 } from 'next/font/google';
 import PageViewTracker from './components/PageViewTracker';
+import { LanguageProvider } from '@/lib/i18n/LanguageContext';
 import './globals.css'; // Global styles
 
 const sourceSans = Source_Sans_3({
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="fr" className={`${sourceSans.variable} ${sourceSerif.variable}`}>
+    <html lang="fr" className={`${sourceSans.variable} ${sourceSerif.variable}`} suppressHydrationWarning>
       <head>
         <script
           dangerouslySetInnerHTML={{
@@ -48,7 +49,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Suspense fallback={null}>
           <PageViewTracker />
         </Suspense>
-        {children}
+        <LanguageProvider>
+          {children}
+        </LanguageProvider>
       </body>
     </html>
   );

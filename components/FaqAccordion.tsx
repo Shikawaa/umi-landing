@@ -2,36 +2,18 @@
 
 import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
+import { useLanguage } from '@/lib/i18n/LanguageContext';
 
-const faqItems = [
-  {
-    question: "UMi remplace-t-il le psychologue ?",
-    answer: "UMi est un prolongement de votre pratique, jamais un substitut. L'app n'est conçue pour être utile qu'au sein d'un suivi avec un praticien. Elle ne diagnostique pas, elle ne décide rien pour le patient. Cette limite est un engagement fondateur, pas une précaution de communication."
-  },
-  {
-    question: "Les données sont-elles vraiment sécurisées ?",
-    answer: "L'infrastructure repose sur un hébergement HDS certifié en France. Les données de santé sont chiffrées au repos et en transit. Le patient contrôle ce qu'il partage avec vous : vous ne voyez jamais le contenu clinique brut sans son accord explicite."
-  },
-  {
-    question: "Est-ce que ça va m'alourdir la charge de travail ?",
-    answer: "C'est précisément la contrainte que nous nous sommes imposée. Vous configurez l'outil une fois, l'IA s'occupe de la contextualisation patient. Vous consultez un tableau de bord avant chaque séance, trente secondes. Aucune saisie supplémentaire n'est requise."
-  },
-  {
-    question: "UMi est-il réservé aux praticiens TCC ?",
-    answer: "La bibliothèque d'exercices du MVP est ancrée dans les approches cognitivo-comportementales. Si vous travaillez avec d'autres approches, UMi reste utilisable mais les exercices proposés ne seront pas tous pertinents. Nous ouvrirons progressivement la plateforme à d'autres modalités."
-  },
-  {
-    question: "Qu'est-ce que je vois exactement de ce que fait mon patient ?",
-    answer: "Au MVP, vous voyez les métadonnées d'engagement : exercices réalisés, fréquence, date du dernier usage. Pas le contenu des réponses. Cette séparation est un choix conscient : elle protège l'alliance thérapeutique et évite les biais de jugement hors séance."
-  },
-  {
-    question: "Quand est-ce que le MVP sera disponible ?",
-    answer: "Une bêta fermée ouvre dans les prochains mois avec une vingtaine de praticiens TCC pilotes. En rejoignant la liste early-bird, vous êtes prioritaire sur cet accès et vous bénéficiez du tarif préférentiel."
-  }
-];
+interface FaqItem {
+  question: string;
+  answer: string;
+}
 
 export default function FaqAccordion() {
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
+  const { ta } = useLanguage();
+
+  const faqItems = ta<FaqItem[]>('faq.items');
 
   return (
     <div className="w-full flex flex-col">

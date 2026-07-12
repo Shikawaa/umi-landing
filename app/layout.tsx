@@ -3,6 +3,7 @@ import { Suspense } from 'react';
 import { Source_Sans_3, Source_Serif_4 } from 'next/font/google';
 import PageViewTracker from './components/PageViewTracker';
 import { LanguageProvider } from '@/lib/i18n/LanguageContext';
+import StagingIndicator from '@/components/StagingIndicator';
 import './globals.css'; // Global styles
 
 const sourceSans = Source_Sans_3({
@@ -52,6 +53,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <LanguageProvider>
           {children}
         </LanguageProvider>
+        <StagingIndicator serverEnv={process.env.CONTEXT || process.env.APP_ENV} />
       </body>
     </html>
   );
